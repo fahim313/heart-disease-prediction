@@ -18,8 +18,12 @@ To build this system, I experimented with multiple machine learning algorithms:
 
 After evaluating the performance, the **Random Forest (RF)** model demonstrated the highest accuracy and reliability for this dataset. Therefore, the application uses the Random Forest model as the primary engine for predictions.
 
+## 📓 Technical Notebook
+You can explore the full data analysis, preprocessing, and model training process in my Google Colab notebook:
+[View Project Notebook](https://colab.research.google.com/drive/1yNciS9wZeU4zBjzW4jHMqkyJlF9WbSaH?usp=sharing)
+
 ## 🛠️ Key Features
-- **Accurate Prediction:** Optimized prediction using the Random Forest classifier.
+- **Accurate Prediction:** Optimized prediction using the Random Forest classifier (Achieved 91.30% accuracy).
 - **Explainable AI (XAI):** Provides visual insights into how specific health factors increase or decrease risk using SHAP analysis.
 - **User-Friendly Interface:** Built with Gradio for an intuitive and interactive user experience.
 
